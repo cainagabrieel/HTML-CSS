@@ -1,0 +1,10 @@
+Shift + Home
+Selects from current cursor position to start of line
+
+Shift + End
+Selects from current cursor position to end of line
+
+Ctrl + Right arrow
+Moves cursor to next word or end of current word
+
+Duplicate line (Ctrl + D)

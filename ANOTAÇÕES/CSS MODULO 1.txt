@@ -1,0 +1,16 @@
+abrir STYLE no HEAD para aplicar css
+exemplo     
+<style>
+        body {
+            background-color: aquamarine;
+        }
+</style>
+	
+*EM em FONT-SIZE quer dizer que é ''relativo ao px principal''
+
+*ao criar um stylesheets, usar 
+	@charset "UTF-8";
+para a pagina ser com caracteres abtn2
+
+*@ no inicio da pagina quer dizer que é uma REGRA
+*EM um mesmo arquivo, se pode usar os tres tipos de CSS, Externo, interno e inline

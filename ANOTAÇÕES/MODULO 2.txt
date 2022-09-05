@@ -1,0 +1,24 @@
+todas as LETRAS de uma fonte são baseados na altura X
+as letras das maiusculas tem uma altura especial chamada de altura das maiusculas
+
+A altura de uma letra seja ela maiuscula ou minuscula é chamda de CORPO, importante para CSS
+SERIFA é o tracinho que tem em algumas fontes
+
+            medidas absolutas:
+            cm, mm, in(polegada), px, pt(ponto), pc(paica)
+            pt, pc é de impressao para papel
+
+            medidas relativas:
+            em(relativo a altura M da fonte), ex(relativo a altura x da fonte), 		rem(relativo a fonte que ta configurada no body) vw(view width, 			porcentagem da view port), vh(altura da viewport)
+
+            USAR PX ou/e EM (melhor EM)
+            16px é geralmente o tamanho de 1EM
+
+ guanabara mandou anotar
+font_weight 400 [400 é o padrão (para deixar a fonte mais gorda ou fina)]
+atalho para fonts 
+            /*shorthand - atalho
+            font-style _ font-weight _ font-size _ font-family*/
+
+            font: normal 500 2.2em arial
+

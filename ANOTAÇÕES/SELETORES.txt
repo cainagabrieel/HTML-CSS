@@ -1,0 +1,44 @@
+Quando tem :, vai mudar de dentro
+Quando tem ::, muda por fora 
+
+
+SELETORES PERSONALIZADOS
+# = id
+. = class
+: = pseudoclass
+:: = pseudoelement
+> = children
+
+
+       a{
+            color: violet;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: purple;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(168, 93, 168);
+        }
+
+        a:active{
+            color: rgb(255, 0, 0);
+        }
+
+        a::before{
+            content: '>>';
+            text-decoration: none;
+            color: rgba(128, 128, 128, 0.795);
+            font-weight: none;
+        }
+
+        a::after{
+            content: ' <<';
+            text-decoration: none;
+            color: rgba(128, 128, 128, 0.795);
+            font-weight: none;
+        }

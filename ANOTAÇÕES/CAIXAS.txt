@@ -1,0 +1,85 @@
+USAR BASTANTE O F12/DEV TOOLS DO GOOGLE
+
+HEIGHT 
+WIDTH
+BORDER
+PADDING (ESPAÇO INTERNO) = ENGORDAR POR DENTRO
+	(PODE TER UM PADDING PARA CADA DIREÇÃO OU TODAS)
+MARGIN (ESPAÇO EXTERNO) = ENGORDAR PRA FORA
+OUTLINE = CONTORNO/TRAÇADO DENTRO DA MARGIN/BORDER
+
+TIPOS DE CAIXA
+
+BOX-LEVEL (PULA PARAGRAFO, DÁ ESPAÇO E DPS CONTINUA) = 
+ 	DIV
+	H1 > H6
+	P
+	MAIN
+	HEADER
+	NAV
+	ARTICLE
+	ASIDE
+	FOOTER	
+	FORM
+	VIDEO
+
+INLINE-LEVEL (NÃO PULA PARAGRAFO, DÁ ESPAÇO NA LINHA E DPS CONTINUA) = 
+	SPAN
+	A
+	CODE
+	SMALL
+	STRONG
+	EM
+	SUP - SUP
+	LABEL
+	BUTTON
+	INPUT
+	SELECT
+
+user agent = navegador
+margin: auto; = centraliza a margem
+se todos os LADOS forem iguais, basta apenas por 1 
+            padding: 10px ;
+duas indicam altura e largura respectivamente
+	    padding: 10px 20px;	
+caso não, indique todos, em sentido horario 
+            margin: 10px auto 34px auto;
+
+podem ser usados para mudar o formato de caixa da variavel
+display: block;
+display: inline; 
+display: inline-block;
+
+
+GROUPING TAGS ( ORGANIZAÇÃO)
+DIVS SEMANTICAS 
+
+header = cabeçalho, titulo
+nav = menu
+main = conteudo principal
+section = sessão (carregado com um id para identificação)
+article = artigo, fica em main/section
+aside = relativo, periferico, fora o artigo
+footer = pé
+
+
+SOMBRAS
+
+box-shadow: 1px 1px 1px black;
+ 	deslocamento horizontal - deslocamento vertical - espalhamento - sombra
+usar dev tools para modicificar melhor
+ao usar black, se for deixar transparente, tem que ser da metade pra baixo
+
+border-radius: (arredondar bordas)
+border-radius: 50%; (cria uma bola)
+
+
+{[(GUANABARA DISSE QUE É HORRIVEL MAS MANDOU ANOTAR
+            border: 10px solid black;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 20;
+            border-image-repeat: repeat;
+            border-image-repeat: stretch;
+BORDA COM IMAGEM
+)]}

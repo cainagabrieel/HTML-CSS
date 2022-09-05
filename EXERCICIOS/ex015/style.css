@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    background-color: azure;
+    font-size: 20px;
+}
+h1 {
+    color: rgb(10, 10, 54);
+}
+h2 {
+    color: rgb(73, 73, 161);
+    font-size: 1.3em;
+}

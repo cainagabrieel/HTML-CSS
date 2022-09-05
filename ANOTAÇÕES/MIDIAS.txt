@@ -1,0 +1,42 @@
+
+----SOURCE
+ <source:src>
+
+
+----AUDIO
+
+*AUDIO + AUTOPLAY + CONTROLS = player de audio no seu site
+	 <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+COMPATIBILIDADE COM <!--MP3 WAV OGG--> EM TODOS OS NAVEGADORES
+*OUTRA FORMA de colocar audio
+	    <audio>
+	        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+	    </audio>
+
+-------------------------------------------------------------------
+
+----IMAGEM
+
+*PICTURE indica ao codigo que vou colocar uma imagem ali com o comando IMG
+	    <picture>
+	        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" 	type="image/png"> <!--Pixel maximo para mudar a imagem para a foto 	pequena-->
+	        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" 	type="image/png"><!--Pixel maximo para mudar a imagem para a foto 
+	media-->
+	        <img src="imagens/foto-g.png" alt="foto-g">
+	    </picture>
+
+
+-------------------------------------------------------------------
+
+----VIDEO NO PROPRIO SERVIDOR
+
+<video controls width="500" poster="imagens/limoes-capa.png">
+    <source src="midia/meu-video.mp4" type="video/mp4">
+    <source src="midia/meu-video.m4v" type="video/mp4">
+    <source src="midia/meu-video.ogv" type="video/ogg">
+    <source src="midia/meu-video.webm" type="video/webm">
+    <p>Seu navegador não consegue rodar esse video</p>
+</video>
+
+----VIDEO HOSPEDADO PELO YOUTUBE
+**Clique em compartilhar o video e depois clique em encorporar e cole o codigo

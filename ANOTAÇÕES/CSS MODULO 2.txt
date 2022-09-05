@@ -1,0 +1,170 @@
+USAR BASTANTE O F12/DEV TOOLS DO GOOGLE
+
+PALETA DE 3 A 5 CORES
+@charset "UTF-8";
+
+PODE SE USAR MAIS DE UMA VARIAVEL EXEMPLO:
+h1, h2{
+	font-family: arial;
+}
+
+DEGRADÊ 
+        body {
+            background-image: linear-gradient(to bottom, #8AC0F2 30%,#405970);
+            background-attachment: fixed;
+        }
+
+guanabara falou pra eu anotar isso
+configuração global das CSS
+	*{
+	 height: 100%;
+	}
+
+
+codigos de cores
+ RGB
+color: rgb(255, 255, 255);
+HEXADECIMAL
+color: #ffffff";
+
+guanabara usa essa fonte 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+{
+
+
+<main> faz uma caixa e indica que aquela caixa é o foco central da pagina
+padding: 10px; /*deixa a caixa mais gordinha*/
+border-radius: 15px; /*arredonda a caixa*/
+margin: auto; /*centraliza a caixa automaticamente*/
+width: 600px; /*dá um tamanho para a caixa*/
+
+font_weight 400 [400 é o padrão (para deixar a fonte mais gorda ou fina)]
+font-style (é para mudar o estilo da fonte, italico etc)
+text-decoration (decora a fonte)
+
+
+3 - 4 fonts-family em um site é ideal
+1 para textos grands
+1 para destaques
+1 para texto normais 
+1 outro
+
+
+text-indent 30px; (é como se fosse em uma redação onde tem que dar um espaço antes de escrever o paragrafo)
+
+ID para diferenciar coisas com a mesma TAG, no CSS identifica ele usando #
+exemplo
+
+   <h1 id="principal"> Criando sites em HTML e CSS</h1>
+
+	h1#principal{
+    		text-align: center;
+	}
+
+
+Tudo que em HTML é id, em CSS é # (só pode 1 elemento por classe)
+Tudo que em HTML é class, em CSS é . (pode varios)
+Tudo que em HTML é div, em CSS é :
+
+
+<span> é usado para pegar uma parte do texto aleatoria sem alterar nada
+podendo colocar um id, ou class ex:
+    <p>
+        Lorem, ipsum<span class="exemplo"> dolor sit amet</span> consectetur
+    </p>
+
+
+div:hover{
+}
+
+
+
+div é usada para dar uma divisão e adicionar funçoes ou coisas legais quando ela estiver ativa dependendo do comando que foi aplicado nela
+
+
+content: ' texto aqui'; (escreve e printa)
+
+
+:root{
+    --cor2:#C5EBD6;
+    --cor2:#83E1AD;
+    --cor3:#3DDC84;
+    --cor4:#2FA866;
+    --cor5:#1A5C37;
+    --cor6:#063D1E;
+}
+
+é possivel criar variaveis dentro, que vai servir para o codigo inteiro
+usado para programar e salvar coisas, como cores ou algo assim
+
+para aplicar no codigo se usa
+
+main > h1{
+	color: var(--cor1);
+}
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+(../) siginfica que '.' esta na pasta, '..' esta na pasta anterior, '../' esta na pasta anterior e depois em outra pasta
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+sempre definir essa regra global, pq o margin e o padding fica atrapalhando as caixas, elas acabam nao ficando do jeitinho certo e ficam espaçando as coisas errado
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+centraliza a box
+width define o tamanho maximo e minimo do block
+
+        img{
+            width: 100%;
+        }
+adapta a img ao tamanho do box
+
+
+comandos de listas
+     ul{
+        list-style-type: "\2714 \00A0"; (numero do emoji, \ para identificar como emoji, o outro numero é um espaço) ( comando não é compativel com todos navegadores)
+        list-style-position: inside;
+        padding-left: 10px;
+        columns: 2;
+    }
+
+
+
+        margin: -10px -10px 0px -10px;
+
+
+mexer com tamanho adptavel de video é complicado, copie esse codigo:
+
+div.video{
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+
+}
+
+    div.video > iframe{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+
+
+
+
+
+
+
+
+

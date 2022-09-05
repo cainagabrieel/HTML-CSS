@@ -1,0 +1,91 @@
+ANOTAÇÕES PARA AS AULAS DE DESENVOLVIMENTO DE SITES DO CURSO EM VIDEO
+
+MODULO 1
+
+*S.E.O , guanabara falou para pesquisar sobre quando eu estiver mais avançado
+*LINUX, guanabara falou para aprender linux
+*Ao digitar ! e apertar ENTER, ele ira escrever o codigo necessario para começar a criar
+*<h1></h1> significa HEAD, TITULO, o numero 1 indica o NIVEL podendo ir até o nivel 6
+*<p></p> significa PARAGRAFO
+*<hr> significa HORIZONTAL LINE, faz uma linha
+*<br> signifca BREAK, quebra a linha
+*Caso queira mostrar o simbolo de < ou >, você deve usar &lt; e &gt; respectivamente
+*&lt; significa LESS THAN, <
+*&gt; significa GREATER THAN, >
+*&#x com ; no final, significa para colocar algum EMOJI
+exemplo &#x1F92F;
+*<!-- signifca ANOTAÇÃO, usado para criar anotações sobre algo sem afetar ou interagir com o código
+*Deve usar imagens com o termo CREATIVE COMMONS para evitar DIREITOS AUTORAIS
+**GIMP
+*1500 de largura é um tamanho ideal para usar em um site (Tamanho maximo)
+*50 de resoluçao é otimo
+*Normalmente uma imagem quando é colocada em um site ela tem uma largura de 650 x 433 com 50% de qualidade
+*Para colocar imagens, digite img e aperter ENTER/ESPAÇO e segure CTRL + ESPAÇO no SRC para aparecer as opções
+e no ALT fale sobre o que é a imagem
+*Para colocar imagens com links, copie o endereço da imagem e coloque na SRC
+*Para fazer a ultilização de FAVICONS (icones que ficam em cima da pagina) digite na parte do HEAD acima do TITLE 
+o codigo link:favicon
+**h1 significa NIVEL de TITULO 1
+*Para envelopar, use CTRL + SHIFT + P + O texto desejado para colocar alguma tag nele sem ter que copiar
+*Segurando SHIFT + TAB + O texto selecionado, ele ira mover para trás, se segurar apenas TAB ira para frente
+--TAGS
+*Usando EM para italico, STRONG para negrito
+*MARK usado para fazer uma marcação
+*SMALL é usado para coisas importantes, como em um contrato
+*DEL é usado para coisas que foram desconsideradas
+*INS é usado para um texto inserido ou adicionado depois
+*SUP para items elevados como x^2
+*SUB para items abaixo como H2O
+*CODE para codigos
+*PRE mantem os espaços e printa do jeito que tá no site
+*QUOTE ou Q para citações "oi", alguem falou e você ta colocando no texto
+*BLOCKQUOTE citações de texto de autores
+*ABBR abreviações
+--
+***A forma usada nas palavras importa, como Negrito ser usado para palavras fortes e Italico ser usado para palavras em 
+ênfase, o HTML5 adpata e entende para todos os aparelhos que aquela tag possui algum significado
+*OL ordered lists, é usado para abrir uma lista, seja ela ordenada usando OL ou não usando UL, dentro é usado LI para determinar os items
+*para mudar a numeração da lista, usasse <ol type="">
+*UL pode mudar o TYPE para CIRCLE, DISC ou SQUARE
+*para mudar o inicio de contagem da OL, usa-se START="(numero da posição)"
+***SEGURANDO ALT + CLICANDO ONDE DESEJA ESCREVER/APAGAR, VOCÊ PODE CRIAR MULTIPLOS CURSORES QUE IRAO FAZER O MSM MOVIMENTO 
+EM VARIOS LUGARES, SEJA APAGANDO OU ESCREVENDO ONDE VOCE CLICOU
+*DT significa TERMO
+*DD significa DESCRIÇÃO
+
+*CTRL +SHIFT +P + A para criar uma referencia hypertexto, ou LINK <a href="">
+*target="_blank" rel="external" para ABRIR o LINK em uma nova aba
+**************Para criar LINKS INTERNOS para o meu site, primero deve se criar outro index, e linka-lo no meu link
+*Para links internos, devemos usar ''rel=''next'' para avançar e rel=''previous'' para voltar a pagina
+*link patrocionado rel="nofollow", para o mecanismo de busca nao pensar que é meu
+*TARGET="SELF" para indicar que o link é a minha propria pagina
+**************** ./ signifca a propria pasta ../ significa a pasta anterior
+*DOWNLOAD="" para linkar downloads de arquivos que nao baixariam normalmente, como pdf etc
+type="application/pdf" guanabara disse um site chamado MEDIA TYPES, que mostra cada type de application que tem 
+
+*PICTURE indica ao codigo que vou colocar uma imagem ali com o comando IMG
+	    <picture>
+	        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" 	type="image/png"> <!--Pixel maximo para mudar a imagem para a foto 	pequena-->
+	        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" 	type="image/png"><!--Pixel maximo para mudar a imagem para a foto 
+	media-->
+	        <img src="imagens/foto-g.png" alt="foto-g">
+	    </picture>
+
+*AUDIO + AUTOPLAY + CONTROLS = player de audio no seu site
+	 <audio src="midia/happy-mistake.mp3" controls autoplay></audio>
+COMPATIBILIDADE COM <!--MP3 WAV OGG--> EM TODOS OS NAVEGADORES
+*OUTRA FORMA de colocar audio
+	    <audio>
+	        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+	    </audio>
+
+*FORMATOS DE VIDEO, ogv, m4v, mp4, webm
+*VIMEO é daora para usar no HANDBRAKE
+YOUTUBE , encorporando o video no site
+VIMEO tbm o mesmo que o youtube
+capa do video 
+poster="imagens/limoes-capa.png">
+*****************PARA ABRIR UMA PAGINA NOVA USANDO UM LINK PROPRIO, SEGURE CTRL E APERTE NO LINK EX:
+    <p>
+        <a href="pag002.html" target="_self">Ir para a pagina 2</a>
+    </p>
