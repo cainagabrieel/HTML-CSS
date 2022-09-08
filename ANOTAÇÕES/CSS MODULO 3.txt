@@ -9,3 +9,8 @@ background-position: ;
         height: 97vh;
         border: 1px dashed black;
     se necessario
+
+background-size: contain;
+    para a imagem ser 100% exibida
+background-size: cover;
+    para a imagem caber totalmente no site
