@@ -9,8 +9,32 @@ background-position: ;
         height: 97vh;
         border: 1px dashed black;
     se necessario
+background-attachment: ;
+    como o background deve agir ao rolar o site
 
 background-size: contain;
     para a imagem ser 100% exibida
 background-size: cover;
     para a imagem caber totalmente no site
+
+background-attachment: fixed;
+    a imagem fica parada
+background-attachment: scroll;
+    a imagem é rolada 
+
+Shorthand background
+    color > image > position > repeat >[size] > attachment
+    cover não funciona por algum motivo (guanabara disse)
+
+guanabara ta explicando como ele centralizou o video retirado do youtube
+    #container
+    {
+    position: relative;
+    }
+    #conteudo
+    {
+        postion: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
