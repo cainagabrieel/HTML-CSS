@@ -1,0 +1,11 @@
+background-size: ;
+    modifica o tamanho do background-image
+background-repeat: 
+    modifica o repeat 
+background-position: ;
+    muda a posição da imagem
+    (prestar atenção no tamanho da DIV)
+    usar:
+        height: 97vh;
+        border: 1px dashed black;
+    se necessario
