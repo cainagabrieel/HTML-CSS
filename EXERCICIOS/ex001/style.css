@@ -49,7 +49,11 @@ a
 {
     padding-right: 20px;
 }
-
+#voltar
+{
+    text-decoration: none;
+    text-decoration: line-through;
+}
 /*
 body
 {
