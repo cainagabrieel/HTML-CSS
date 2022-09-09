@@ -5,21 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Imagens dinâmicas</h1>
-    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
-
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Pixel maximo para mudar a imagem para a foto pequena-->
-        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="foto-g">
-    </picture>
-    <h1>Reproduzindo audio</h1>
-    <p>Vamos aprender a reproduzir audio em HTML5.</p>
-    <audio preload="metadata" autoplay controls loop>
-        <source src="midia/happy-mistake.wav" type="audio/mpeg">
-        <p>infeliz seu navegador não pode tocar o audio, acesse o link para <a href="midia/happy-mistake.mp3">download</a></p>
-    </audio>
+    <main>
+        <article>
+            <h1>Imagens dinâmicas</h1>
+            <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Pixel maximo para mudar a imagem para a foto pequena-->
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                <img src="imagens/foto-m.png" alt="foto-m">
+            </picture>
+            <h1>Reproduzindo audio</h1>
+            <p>Vamos aprender a reproduzir audio em HTML5.</p>
+            <audio preload="metadata" autoplay controls loop>
+                <source src="midia/happy-mistake.wav" type="audio/mpeg">
+                <p>infeliz seu navegador não pode tocar o audio, acesse o link para <a href="midia/happy-mistake.mp3">download</a></p>
+            </audio>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/" target="_self">inicio</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex010/index.html" target="_self" id="voltar">voltar</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex012/index.html" target="_self">proxima</a>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
