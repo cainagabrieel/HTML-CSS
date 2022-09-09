@@ -6,79 +6,92 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Listas</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Trabalhando com listas</h1>
-    <h2>Listas ordenadas</h2>
-    <ol>
-        <li>Acordar</li>
-        <li>Tomar café</li>
-        <li>Escovar os dentes</li>
-        <li>Acordar</li>
-        <li>Tomar café</li>
-        <li>Escovar os dentes</li>
-        <li>Acordar</li>
-        <li>Tomar café</li>
-        <li>Escovar os dentes</li>
-        <li>Dormir</li>
-    </ol>
-    <h2>Listas não ordenadas</h2>
-    <ul type="circle"> <!--CIRCLE / SQUARE / DISC-->
-        <li>Acordar</li>
-        <li>Tomar café</li>
-        <li>Escovar os dentes</li>
-        <li>Acordar</li>
-        <li>Tomar café</li>
-        <li>Escovar os dentes</li>
-    </ul>
-    <h2>Minhas linguagens favoritas</h2>
-    <ol>
-        <li>Antigas</li>
-        <ol type="a">
-            <li>Clipper</li>
-            <li>Visual Basic</li>
-            <li>Fortran</li>
-            <li>Delphi</li>
-        </ol>
-        <li>Novas</li>
-        <ol type="a" start="5">
-            <li>PHP</li>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>Kotlin</li>
-        </ol>
-    </ol>
-    <h2>Meus jogos favoritos</h2>
-    <ol>
-        <li>NES</li>
-        <ul type="square">
-            <li>Mario bros</li>
-            <UL type="circle">
-                <LI>Mario bros 3</LI>
-                <li>Mario Lost levels</li>
-            </UL>
-            <li>Ninja Gaiden</li>
-        </ul>
-        <li>SNES</li>
-        <ul type="square">
-            <li>Mario</li>
-            <li>Donkey kong</li>
-        </ul>
-        <li>Playstation</li>
-        <ul type="square">
-            <li>Final Fantasy</li>
-            <li>Castlevania</li>
-        </ul>
-
-    </ol>
-    <h2>Lista de definições</h2>
-    <ol>
-        <dt>HTML</dt>
-        <dd>Linguagem de marcação para a criação do conteudo de um site.</dd>
-        <dt>CSS</dt>
-        <dd>Linguagem de marcação para a designdo conteudo de um site.</dd>
-        <dt>HTML</dt>
-        <dd>Linguagem de programação para a criação da interatividade de um site.</dd>
-    </ol>
+    <main>
+        <article>
+            <h1>Trabalhando com listas</h1>
+            <h2>Listas ordenadas</h2>
+            <ol class="lista">
+                <li>Acordar</li>
+                <li>Tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Acordar</li>
+                <li>Tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Acordar</li>
+                <li>Tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Dormir</li>
+            </ol>
+            <h2>Listas não ordenadas</h2>
+            <ul type="circle" class="lista"> <!--CIRCLE / SQUARE / DISC-->
+                <li>Acordar</li>
+                <li>Tomar café</li>
+                <li>Escovar os dentes</li>
+                <li>Acordar</li>
+                <li>Tomar café</li>
+                <li>Escovar os dentes</li>
+            </ul>
+            <h2>Minhas linguagens favoritas</h2>
+            <ol class="lista">
+                <li>Antigas</li>
+                <ol type="a" class="listasavante">
+                    <li>Clipper</li>
+                    <li>Visual Basic</li>
+                    <li>Fortran</li>
+                    <li>Delphi</li>
+                </ol>
+                <li>Novas</li>
+                <ol type="a" start="5" class="listasavante">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                    <li>Kotlin</li>
+                </ol>
+            </ol>
+            <h2>Meus jogos favoritos</h2>
+            <ol class="lista">
+                <li>NES</li>
+                <ul type="square" class="listasavante">
+                    <li>Mario bros</li>
+                    <UL type="circle">
+                        <LI>Mario bros 3</LI>
+                        <li>Mario Lost levels</li>
+                    </UL>
+                    <li>Ninja Gaiden</li>
+                </ul>
+                <li>SNES</li>
+                <ul type="square" class="listasavante">
+                    <li>Mario</li>
+                    <li>Donkey kong</li>
+                </ul>
+                <li>Playstation</li>
+                <ul type="square" class="listasavante">
+                    <li>Final Fantasy</li>
+                    <li>Castlevania</li>
+                </ul>
+            </ol>
+            <h2>Lista de definições</h2>
+            <ol class="lista">
+                <dt>HTML</dt>
+                <dd class="detalhe">Linguagem de marcação para a criação do conteudo de um site.</dd>
+                <dt>CSS</dt>
+                <dd class="detalhe">Linguagem de marcação para a designdo conteudo de um site.</dd>
+                <dt>HTML</dt>
+                <dd class="detalhe">Linguagem de programação para a criação da interatividade de um site.</dd>
+            </ol>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/" target="_self">inicio</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex008b/index.html" target="_self" id="voltar">voltar</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex010/index.html" target="_self">proxima</a>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>

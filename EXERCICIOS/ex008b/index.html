@@ -6,31 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Outras formatações</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getElementById('Teste')</code> é escrito em linguagem JavaScript</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número'))
-    if num % 2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é IMPAR')
-    print(f'Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
-    <h2>Citações completas</h2>
-    <p>Segundo Luffy, de One piece, criado por Oda:</p>
-    <blockquote>
-        Eu serei o Rei dos piratas!
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+    <main>
+        <article>
+            <h1>Outras formatações</h1>
+            <h2>Código-fonte</h2>
+                <p>O comando <code style="padding: 0px 4px;">document.getElementById('Teste')</code> é escrito em linguagem JavaScript</p>
+                <pre>
+                    <code style="color: rgb(83, 28, 134);">
+                    num = int(input('Digite um número'))
+                    if num % 2 == 0:
+                        print(f'O número {num} é PAR')
+                    else:
+                        print(f'O número {num} é IMPAR')
+                    print(f'Fim do programa')
+                    </code>
+                </pre>
+            <h2>Citações</h2>
+                <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+            <h2>Citações completas</h2>
+                <p>Segundo Luffy, de One piece, criado por Oda:</p>
+                <blockquote style="color: rgb(83, 28, 134); text-indent: 20px;" >
+                    Eu serei o Rei dos piratas!
+                </blockquote>
+            <h2>Abreviações</h2>
+                <p>Estou estudando <abbr title="HyperText Markup">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando</p>
+            <h2>Texto invertido</h2>
+                <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
+        </article>
+    </main> 
+    <footer>
+        <nav>
+            <ul>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/" target="_self">inicio</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex008/index.html" target="_self" id="voltar">voltar</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex009/index.html" target="_self">proxima</a>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
