@@ -1,0 +1,87 @@
+@charset "UTF-8";
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+header
+{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+header h1
+{
+    font-size: 3em;
+}
+header p
+{
+    padding-bottom: 50px;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover
+{
+    color: white;
+    text-decoration: underline;
+}
+section
+{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+.normal
+{
+    background-color: white;
+    color: black;
+}
+.imagem p
+{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+.imagem
+{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#flor
+{
+    background-image: url("../des012/imagens/background001.jpg");
+    background-position: center right;
+}
+#livro
+{
+    background-image: url("../des012/imagens/background002.jpg");
+    background-position: center right;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer > p
+{
+    text-align: center;
+}
