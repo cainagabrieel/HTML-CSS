@@ -13,37 +13,24 @@ html
 body
 {
 
-    height: 95vh;
+    height: 90vh;
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to bottom, #d289ffa6, #D189FF );
     margin: 0 0 100px;
     padding: 25px;
     bottom: -50px;
 }
-h1
-{
-
-    color: #300065;
-    font-size: 2em;
-    text-indent: 50px;
-    padding: 0.2em
+h1{
+    margin: .5em;
 }
 h2
 {
-
-    color: #300065;
-    font-size: 1.5em;
-    text-indent: 15px;
-    padding: 0.2em
+    margin: .5em;
 }
 p
 {
-    font-weight: 600;
-    color: #7A08FA;
-    text-indent: 0px;
-    padding: 0.3em;
-    margin: 0.3em;
     text-align: justify;
+    margin: .5em;
 }
 picture
 {

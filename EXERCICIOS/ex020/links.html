@@ -5,38 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        a{
-            color: violet;
+        .a1{
+            color: rgb(189, 107, 189);
             text-decoration: none;
             font-weight: bold;
         }
 
-        a:visited{
+        .a1:visited{
             color: purple;
         }
 
-        a:hover{
+        .a1:hover{
             text-decoration: underline;
             color: rgb(168, 93, 168);
         }
 
-        a:active{
+        .a1:active{
             color: rgb(255, 0, 0);
         }
 
-        a::before{
+        .a1::before{
             content: '>>';
             text-decoration: none;
             color: rgba(128, 128, 128, 0.795);
             font-weight: none;
         }
 
-        a::after{
+        .a1::after{
             content: ' <<';
             text-decoration: none;
             color: rgba(128, 128, 128, 0.795);
@@ -61,9 +62,18 @@
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">Repositorio Github</a></li>
-        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external" class="especial">Canal do Youtube</a ></li>
-        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Site do CursoemVideo</a></li>
+        <li><a href="https://gustavoguanabara.github.io/" target="_blank" rel="external" class="a1">Repositorio Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external" class="especial" class="a1">Canal do Youtube</a ></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external" class="a1">Site do CursoemVideo</a></li>
     </ul>
+    <footer>
+        <nav>
+            <ul>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/" target="_self">inicio</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex020/pseudo-classes.html" target="_self" id="voltar">voltar</a>
+                <a href="https://cainagabrieel.github.io/HTML-CSS/EXERCICIOS/ex020/hover.html" target="_self">proxima</a>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
