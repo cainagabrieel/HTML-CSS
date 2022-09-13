@@ -38,3 +38,20 @@ guanabara ta explicando como ele centralizou o video retirado do youtube
         top: 50%;
         transform: translate(-50%, -50%);
     }
+text-transform
+    pode trasnformar a formatação do texto nas css
+    ex: pode deixar tudo maiusculo
+font-variant: small-caps;
+    trasnforma a fonte e modifica a formatação/ tamanho
+
+usar VH em padding ou margin ajuda a manter a responsividade ao mudar o tamanho da tela
+
+line-height: 2em;
+    altura dos espaçamentos entre as linhas
+
+:root
+{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
