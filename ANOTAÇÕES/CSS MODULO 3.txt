@@ -55,3 +55,38 @@ line-height: 2em;
     --fonte2: 'Passion One', cursive;
     --fonte3: 'Sriracha', cursive;
 }
+
+Hierarquia de tabela (simples)
+        TABLE = tabela
+            TABLE ROW = linha de tabela
+                TABLE HEADER = cabeçalho de tabela
+                TABLE DATA = dado de tabela
+<table> = tabela
+<tr> = table row
+<td> = table data
+border-collapse: collapse; juntar as bordas
+vertical-align: para alinhar os dados do jeito q eu quiser
+scope col, row = da uma semantica aos titulos
+:nth-child(odd) = efeito zebrado
+Anatomia para tabelas grandes
+        TABLE
+            THEAD
+                TR, TD ,TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+para fazer o header ficar parado
+    position: sticky;
+    top: -1px;
+    background-color: rgb(102, 102, 102);
+colspan = expandir as colunas 
+rowspan = expandir linhas
+
+    <colgroup>
+        <col class="cnome">
+        <col class="cidade" span="2">
+    </colgroup>
+    para aplicar algo na coluna inteira sem ter q dar classe para cada um 
+
+overflow = conteudo que transborda, seja para y, ou para x
