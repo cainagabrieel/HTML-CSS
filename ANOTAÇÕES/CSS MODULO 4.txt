@@ -1,0 +1,12 @@
+<!-- Tamanho padrão de um iframe: 300x150-->
+css é soberana as configurações do html sobre o iframe
+scrolling : decide se o iframe vai ter rolagem
+    auto, yes, no
+    (yes, mesmo se não precisar, ele vai ter)
+frameborder : bordar ou não
+    0 ou 1
+name : é uma forma de id, guanabara usou no iframe para usar no target
+sandbox="sandbox" 
+    metodo de prevenção de roubo de dados, usado no iframe
+referrerpolicy="no-referer"
+    evita que capture seus dados, usado para anuncios
